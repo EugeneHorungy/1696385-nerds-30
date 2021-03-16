@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  src: local("Roboto"),
+       url("../fonts/roboto.woff2") format("woff2"),
+       url("../fonts/roboto.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+  src: local("Roboto"),
+       url("../fonts/robotomedium.woff2") format("woff2"),
+       url("../fonts/robotomedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  src: local("Roboto"),
+       url("../fonts/robotobold.woff2") format("woff2"),
+       url("../fonts/robotobold.woff") format("woff");
+}
+
+:root {
+  --white: #ffffff;
+  --light-gray: #eeeeee;
+  --gray-1: #a6a6a6;
+  --gray-2: #4d4d4d;
+  --gray-3: #e1e1e1;
+  --gray-4: #666666;
+  --gray-5: #444444;
+  --gray-6: #d7dcde;
+  --gray-7: #b4b9bb;
+  --gray-8: #dfdfdf;
+  --gray-9: #d5d5d5;
+  --dark-gray: #283136;
+  --black: #000000;
+  --red: #fb565a;
+  --extra-red: #e74246;
+  --dark-red: #d7373b;
+  --green: #00ca74;
+  --extra-green: #00bc6c;
+  --dark-green: #00aa62;
+  --yellow: #efc849;
+  --extra-yellow: #eab534;
+  --dark-yellow: #e5a722;
+  /*semantic-properties*/
+}
