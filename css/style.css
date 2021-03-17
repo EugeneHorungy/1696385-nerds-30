@@ -384,3 +384,102 @@ a {
 .social-list-item-link:active .social-list-item-link-img {
   opacity: 0.3;
 }
+
+/* Filter */
+
+.filter {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+.filter-form-fieldset-legend {
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-m);
+  color: var(--text-color-black);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+}
+
+.price-label {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xs);
+  color: var(--text-color-dark);
+  font-weight: var(--font-weight-normal);
+  text-transform: uppercase;
+}
+
+.filter-form-fieldset-list-item-label {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xxs);
+  color: var(--text-color-dark);
+  font-weight: var(--font-weight-normal);
+}
+
+.filter-form-btn {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xxxs);
+  color: var(--text-color-black);
+  font-weight: var(--font-weight-medium);
+}
+
+/* Templates */
+
+.templates {
+  font-family: var(--main-font);
+  font-style: normal;
+}
+
+.templates-sorting-heading {
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-m);
+  color: var(--text-color-black);
+  font-weight: var(--font-weight-bold);
+}
+
+.templates-sorting-value-list-item-link {
+  font-size: var(--font-size-xxs);
+  line-height: var(--line-height-xxxs);
+  color: var(--text-color-black);
+  font-weight: var(--font-weight-normal);
+  opacity: 0.3;
+}
+
+.templates-sorting-value-list-item-link:hover {
+  opacity: 0.6;
+}
+
+.templates-sorting-value-list-item-link:active {
+  opacity: 1;
+}
+
+.sorting-active {
+  opacity: 1;
+}
+
+/* Card */
+
+.card-heading {
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-m);
+  color: var(--text-color-black);
+  font-weight: var(--font-weight-bold);
+}
+
+.card-description {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xxxs);
+  color: var(--text-color-gray);
+  font-weight: var(--font-weight-normal);
+}
+
+.card-price {
+  background-color: var(--btn-bg-red);
+  padding: 17px 72px 15px;
+}
+
+.templates-pagination-item-link {
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-xxxs);
+  color: var(--text-color-black);
+  font-weight: var(--font-weight-medium);
+}
