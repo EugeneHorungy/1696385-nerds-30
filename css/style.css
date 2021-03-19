@@ -38,6 +38,7 @@
   --gray-7: #b4b9bb;
   --gray-8: #dfdfdf;
   --gray-9: #d5d5d5;
+  --gray-10: #c1c1c1;
   --dark-gray: #283136;
   --black: #000000;
   --black-transparent: rgba(0, 1, 1, 0.1);
@@ -68,6 +69,8 @@
   --btn-bg-yellow: var(--yellow);
   --btn-bg-yellow-hover: var(--extra-yellow);
   --btn-bg-yellow-active: var(--dark-yellow);
+  --btn-bg-slider: var(--white);
+  --btn-slider-border: var(--gray-10);
   --social-bg-color: var(--gray-3);
   --social-bg-hover-color: var(--extra-red);
   --social-bg-active-color: var(--dark-red);
@@ -93,6 +96,12 @@
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 a {
@@ -178,7 +187,9 @@ a {
 }
 
 .slider-item-btn {
-  padding: 17px 54px 15px;
+  padding: 17px 10px 15px;
+  min-width: 240px;
+  text-align: center;
   background-color: var(--btn-bg-red);
 }
 
@@ -189,6 +200,27 @@ a {
 .slider-item-btn:active {
   color: var(--btn-text-color-transparent);
   background-color: var(--btn-bg-red-active);
+}
+
+.slider-pag-btn {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background-color: var(--btn-bg-slider);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-pug-btn-active::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 5px;
+  left: 5.5px;
+  border: 2px solid var(--btn-slider-border);
+  border-radius: 50%;
 }
 
 /* Products */
@@ -214,7 +246,9 @@ a {
 }
 
 .products-item-link {
-  padding: 17px 40px 15px 39px;
+  padding: 17px 10px 15px;
+  min-width: 160px;
+  text-align: center;
 }
 
 .products-item-link-sites {
@@ -335,7 +369,9 @@ a {
 }
 
 .contacts-link {
-  padding: 17px 44px 15px;
+  padding: 17px 10px 15px;
+  min-width: 219px;
+  text-align: center;
   background-color: var(--btn-bg-red);
 }
 
@@ -473,8 +509,10 @@ a {
 }
 
 .card-price {
+  padding: 17px 10px 15px;
+  min-width: 200px;
+  text-align: center;
   background-color: var(--btn-bg-red);
-  padding: 17px 72px 15px;
 }
 
 .templates-pagination-item-link {
